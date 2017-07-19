@@ -1,0 +1,22 @@
+#Layer1 {
+	position:absolute;
+	width:267px;
+	height:65px;
+	z-index:1;
+	left: 500px;
+	top: 47px;
+	font-family: "ËÎÌו";text-shadow:0 1px 2px #666;
+	
+}
+.sy{width:1000px;height:100px;text-align:center; padding-top:10px;margin-top:20px; margin-bottom:20ox;box-shadow:1px 1px 1px #666;font-family: "ËÎÌו";background:#000; filter:alpha(opacity:10); opacity:0.1}
+.sy p{color:#000000}
+.k{width:800px;height:150px;float: left;background-color: #FFFFFF;box-shadow:1px 2px 1px 1px #F3F3F3;margin-top:1px;margin-left:230px;}
+.k1{width:800px;height:130px;float: left;background-color: #FFFFFF;box-shadow:1px 2px 1px 1px #F3F3F3;margin-top:1px;margin-left:230px;text-align:center}
+.tu{width:200px;height:200px;float: left;margin-left:5px;margin-top:5px;padding-top:30px;border="0"}
+.zi{float: left;margin-left:10px;margin-top:50px;}
+.zi1{float: left;}
+.k:hover{background-color: #F3F3F3}
+
+
+
+.jianbian{width:500px;height:300px;float:left;linear-gradient(to bottom,#fff,#999); }
