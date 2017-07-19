@@ -170,6 +170,32 @@ a:active {
 	<div class="jianbian"></div>
 	
 	</center>
+	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="http://od29kk31f.bkt.clouddn.com/bootstrap.min.js"></script>
+	<script src="http://od29kk31f.bkt.clouddn.com/canvas-particle.js"></script>
+	<script type="text/javascript" src="http://oiad50xqq.bkt.clouddn.com/toTop.js"></script>
+	<script type="text/javascript">
+		window.onload = function(){
+			//配置
+			var config = {
+				vx: 4,//点x轴速度,正为右，负为左
+				vy:  4,//点y轴速度
+				height: 2,//点高宽，其实为正方形，所以不宜太大
+				width: 2,
+				count: 120,//点个数
+				color: "0,183,283",//点颜色
+				stroke: "120,246,252",//线条颜色
+				dist: 2000,//点吸附距离
+				e_dist: 10000,//鼠标吸附加速距离
+				max_conn: 10//点到点最大连接数
+			}
+			//调用
+			CanvasParticle(config);
+		};
+	 </script>
+
 </body>
 
 
